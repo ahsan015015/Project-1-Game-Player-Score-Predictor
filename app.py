@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 
-st.title("🎮 Game Player Score Predictor")
+st.title(" Game Player Score Predictor")
 st.write("Enter the gameplay stats below and I'll predict the score.")
 
 
