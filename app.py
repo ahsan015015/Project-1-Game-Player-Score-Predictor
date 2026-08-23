@@ -2,11 +2,10 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import os
 
 
 st.title("🎮 Game Player Score Predictor")
-st.write("নিচে তথ্য দাও, আমি স্কোর প্রেডিক্ট করে দিচ্ছি।")
+st.write("Enter the gameplay stats below and I'll predict the score.")
 
 
 play_time = st.number_input("Play Time (Second)", 0, 300, 60)
